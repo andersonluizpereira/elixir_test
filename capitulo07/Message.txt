@@ -1,0 +1,15 @@
+Mix é uma interface de linha de comando (CLI) para construção de projetos, gerenciamento de dependências e execução de tarefas. Com ela, é possível desde criar projetos com toda a estrutura de pastas predefinida até tarefas customizadas.
+
+O Mix já vem instalado por padrão junto ao Elixir, então apenas digite no terminal mix new <nome do projeto> , em que <nome do projeto> é o nome que você gostaria de dar ao projeto. Com este comando, o Mix gerará toda a estrutura do
+projeto para você, com todas as pastas necessárias para executá-lo.
+
+-Criar um app
+mix new app
+
+Criei uma função
+
+  defmodule App.Hello do
+    def say(str) do
+      str
+    end
+  end 
